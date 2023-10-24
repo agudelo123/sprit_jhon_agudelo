@@ -1,254 +1,917 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(57, 57, 245);
-
-    
-}
-
-#logo{
-    width: 4.5vw;
-    height: 11vh;
-    margin-left: 95.5vw;
-    position: relative;
-    top: 20px;
-}
-nav{
-    background-color: rgb(25, 107, 173);
-    position: relative;
-    bottom: 60px;
-}
-.enlace
-{
-    position: relative;
-    top: 60px;
-    color: white;
-    font-size: 30px;
-    border: 2px solid gray
-}
-#imagenbaner{
-    width: 35vw;
-    height: 30vh;
-    position: relative;
-    left: 32vw;
-    bottom: 25px;
-}
-#imagen{
-    width: 36vw;
-    height: 28vh;
-    display: inline-flex;
-    position: relative;
-    left: 200px;
-    top: 80px;
-}
-
-#final{
-    background-color: rgb(25, 107, 173);
-    position: relative;
-    top: 120px;
-    display: block;
-    font-size: 30px;
-    color: white;
-}
-h1{
-  display: inline-block;
-    position:relative;
-    left: 43vw;
-    bottom: 55px;
-    color: darkgray;
-        font-size: 40px;
-        text-transform: uppercase;
-}
-h2{
-    width: 250px;
-    position:relative;
-    left: 46.5vw;
-    font-size: 30px;
-    bottom: 40px;
-    text-transform: uppercase;
-    color: rgb(15, 224, 196);
-
-}
-#about{
-    position: relative;
-    left:45vw;
-}
-#contacto{
-    position: relative;
-    left:44vw;
-}
-#parrafo1
-{
-    width: 50vw;
-    display:inline-block;
-    color: white;
-    position: relative;
-    top: 60px;
-font-size: 35px;}
-
-#informacion{
-    display: block;
-}
-
-    .enlace{
-        font-size: 30px;
-        border: 2px solid gray
-        
-    }
-.imagenes{
-    width: 300px;
-    height: 218px;
-    display: inline-block;
-    position: relative;
-    left: 350px;
-    bottom: 20px;
-
-}
-.parrafos{
-    display: inline-block;
-    position: relative;
-    bottom: 130px;
-    left: 350px;
-    color: white;
-    font-size: 25px;
-    width: 60vw;
-    height: 5vh;
-
-    
-}
-#final2{
-    background-color: rgb(25, 107, 173);
-    position: relative;
-    display: block;
-    font-size: 30px;
-    color: white;
-}
-#imagen2{
-    width: 35vw;
-    height: 40vh;
-    position: relative;
-    left: 610px;
-    bottom: 30px;
-
-}
-#parrafo2{
-    font-size: 37.6px;
-    color: whitesmoke;
-    display: inline-block;
-    transform: translate(400px,50px);
-    width: 61vw;
+     @media only screen and (max-width:554px) {
+         * {
+             margin: 0;
+             padding: 0;
+             background-color: rgb(57, 57, 245);
 
 
-}
-#email{ display: inline-block;
-    transform: translate(20vw,10vh);
-    font-size: 25px;
-    color: white;
-    border: 2px solid gray;
-    text-transform: uppercase;
-    font-size: 36px;
-}
-#telefono{
-    display: inline-block;
-    transform: translate(45vw,10vh);
-    font-size: 25px;
-    color: white;
-    border: 2px solid gray;
-    text-transform: uppercase;
-    font-size: 36px;
-    
-}
-#menu{
-    display: inline-block;
-}
-#tabla{
-    position: relative;
-    padding: 5px 10px;
-    height: 505px;    
-    margin-left: 20px;
-    font-size: 1rem;
+         }
 
-}
-#more-information{
-    transform: translate(-5vw);
+         #logo {
+             width: 20vw;
+             height: 13vh;
+             margin-left: 99.5vw;
+             position: relative;
+             bottom: 40px;
+         }
 
-}
-#benefits-and-tips{
-    transform: translate(-5vw);
-    width: 500px
-}
+         nav {
+             background-color: rgb(25, 107, 173);
+             position: relative;
+             bottom: 60px;
+             box-sizing: 8px;
+         }
 
- tr, th, td{
-    border: 1px white solid;
-    
-    color: white;
-    background-color: black;
-    width: 70vw;
-    height: 14.3vh;
+         .enlace {
+             position: relative;
+             top: 60px;
+             color: white;
+             font-size: 25px;
+             border: 2px solid gray
+         }
 
-}
-table{
-  margin-left: 15vw;
-    border: 1px white solid;
-    
-    color: white;
-    background-color: black;
-    width: 70vw;
-    height: 14.3vh;
+         #imagenbaner {
+             width: 80vw;
+             height: 20vh;
+             position: relative;
+             left: 15vw;
+             bottom: 25px;
+         }
 
-}
-section{
-    display: inline-block;
-    
-}
-.cream{
-    display: flex;
-    width: 18vw;
-    height: 20vh;
-    
-}
+         #imagen {
+             width: 70vw;
+             height: 24vh;
+             display: inline;
+             position: absolute;
+             bottom: 20vh;
+             left: 1vw;
+         }
 
-article{
-    display: flex;
-    border: solid 2px;
-    justify-content:center;
-    margin: 50px ;
-    width: 50vw;
-    margin-left: 30vw;
-}
-ol{
-    color: white;
-    margin-left: 280px;
+         #final {
+             background-color: rgb(25, 107, 173);
+             position: relative;
+             top: 470px;
+             left: 40px;
+             display: block;
+             font-size: 30px;
+             color: white;
+         }
 
-    
-}
-#final1{
-    background-color: rgb(25, 107, 173);
-    position: relative;
-    display: block;
-    font-size: 30px;
-    color: white;
-    top: 9vh;
-}
-.extrellas{
-  width: 200px;
-  height: 30px;
-  position: relative;
-  right: 20px;
-  top: 20px;
-}
-#cierre{
-    display: flex;
-justify-content: center;  
-text-transform: uppercase;
-color: white;
-margin-left: 150px;}
+         h1 {
+             display: inline-block;
+             position: relative;
+             left: 10vw;
+             bottom: 55px;
+             color: darkgray;
+             font-size: 30px;
+             text-transform: uppercase;
+         }
 
-#lista{
-    color: rgb(57, 57, 245);
-}
-#rafle1{
-    width: 850px;
-    position:relative;
-    left: 26vw;
-}
+         h2 {
+             width: 250px;
+             position: relative;
+             left: 25vw;
+             font-size: 20px;
+             bottom: 40px;
+             text-transform: uppercase;
+             color: rgb(15, 224, 196);
+
+         }
+
+         #informacion {
+             position: absolute;
+             left: 50px;
+             top: 80vh;
+             font-size: 15px;
+         }
+
+         #about2 {
+             position: relative;
+             right: 30px;
+         }
+
+         .imagenes {
+             width: 60vw;
+             height: 12vh;
+             display: block;
+             position: relative;
+             left: 20vw;
+             bottom: 20px;
+
+         }
+
+         .parrafos {
+             display: inline-block;
+             position: relative;
+             bottom: 20px;
+             left: 25vw;
+             color: white;
+             font-size: 13px;
+             width: 60vw;
+             height: 5vh;
+
+
+         }
+
+         #final2 {
+             background-color: rgb(25, 107, 173);
+             position: relative;
+             display: block;
+             font-size: 25px;
+             color: white;
+         }
+
+         #contacto {
+             position: relative;
+             left: 10vw;
+         }
+
+         #imagen2 {
+             width: 35vw;
+             height: 20vh;
+             position: relative;
+             left: 20vw;
+             bottom: 30px;
+
+         }
+
+         #parrafo2 {
+             font-size: 20px;
+             color: whitesmoke;
+             display: inline-block;
+             transform: translate(40px, -19px);
+             width: 61vw;
+
+
+         }
+
+         #email {
+             display: inline-block;
+             transform: translate(05vw, -1vh);
+             font-size: 25px;
+             color: white;
+             border: 2px solid gray;
+             text-transform: uppercase;
+             font-size: 15px;
+         }
+
+         #telefono {
+             display: inline-block;
+             transform: translate(08vw, -1vh);
+             font-size: 25px;
+             color: white;
+             border: 2px solid gray;
+             text-transform: uppercase;
+             font-size: 15px;
+
+         }
+
+         tr,
+         th,
+         td {
+             border: 1px white solid;
+             color: white;
+             background-color: black;
+             width: 80vw;
+             height: 14vh;
+         }
+
+         table {
+             margin-left: 10vw;
+             border: 1px white solid;
+             color: white;
+             background-color: black;
+             width: 80vw;
+             height: 14vh;
+             margin-bottom: 04px;
+         }
+
+         #benefits-and-tips {
+             transform: translate(-15vw);
+         }
+
+         section {
+             display: inline-block;
+
+         }
+
+         .cream {
+             display: block;
+             width: 40vw;
+             height: 15vh;
+             padding-left: 30px;
+         }
+
+         article {
+             display: block;
+             border: solid 2px;
+             justify-content: center;
+             margin: 15px;
+             width: 70vw;
+             margin-left: 20vw;
+         }
+
+         ol {
+             color: white;
+             margin-left: 20px;
+         }
+
+         #final1 {
+             background-color: rgb(25, 107, 173);
+             position: relative;
+             display: block;
+             font-size: 30px;
+             color: white;
+             top: 9vh;
+         }
+
+         .extrellas {
+             display: flex;
+             width: 45vw;
+             height: 30px;
+             position: relative;
+             right: 20px;
+             top: 2px;
+             justify-content: center;
+         }
+
+         #cierre {
+             display: flex;
+             justify-content: center;
+             color: white;
+             margin-left: 40px;
+         }
+
+         .lista {
+             color: rgb(57, 57, 245);
+         }
+
+         #rafle1 {
+             width: 290px;
+             position: relative;
+             left: 2vw;
+         }
+
+         #parte1 {
+             display: flex;
+
+         }
+
+         iframe {
+             width: 70vw;
+             height: 40vh;
+             transform: translate(10vw, 59vh);
+         }
+
+         #parte2 {
+             font-size: 20px;
+             border: 3px solid;
+             position: relative;
+             bottom: 45vh;
+             color: white;
+             padding: 15px;
+         }
+
+         select {
+             color: white;
+             border: 2px solid;
+             width: 10vw;
+         }
+
+         #enviar {
+             color: black;
+             border: 2px solid;
+             padding: 5px;
+         }
+
+         input {
+             background-color: white;
+         }
+
+         #comentario {
+             width: 75vw;
+             height: 6vh;
+         }
+     }
+
+     @media only screen and (min-width:555px) and (max-width:940px) {
+        * {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(57, 57, 245);
+
+
+        }
+
+        #logo {
+            width: 10vw;
+            height: 7vh;
+            margin-left: 90.5vw;
+            position: relative;
+            top: 30px;
+        }
+
+        nav {
+            background-color: rgb(25, 107, 173);
+            position: relative;
+            bottom: 60px;
+            box-sizing: 8px;
+        }
+
+        .enlace {
+            position: relative;
+            top: 60px;
+            color: white;
+            font-size: 25px;
+            border: 2px solid gray
+        }
+
+        #imagenbaner {
+            width: 60vw;
+            height: 20vh;
+            position: relative;
+            left: 19vw;
+            bottom: 25px;
+        }
+
+        #imagen {
+            width: 70vw;
+            height: 30vh;
+            display: inline-flex;
+            position: absolute;
+            bottom: 18vh;
+            left: 4vw;
+        }
+
+        #final {
+            background-color: rgb(25, 107, 173);
+            position: relative;
+            top: 470px;
+            left: 40px;
+            display: block;
+            font-size: 30px;
+            color: white;
+        }
+
+        h1 {
+            display: inline-block;
+            position: relative;
+            left: 40vw;
+            bottom: 55px;
+            color: darkgray;
+            font-size: 30px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            width: 250px;
+            position: relative;
+            left: 45vw;
+            font-size: 20px;
+            bottom: 40px;
+            text-transform: uppercase;
+            color: rgb(15, 224, 196);
+
+        }
+
+        #informacion {
+            position: absolute;
+            left: 50px;
+            top: 80vh;
+            font-size: 17px;
+        }
+
+        #about2 {
+            position: relative;
+            right: 30px;
+        }
+
+        .imagenes {
+            width: 26vw;
+            height: 19vh;
+            display: block;
+            position: relative;
+            left: 35vw;
+            bottom: 20px;
+
+        }
+
+        .parrafos {
+            display: inline-block;
+            position: relative;
+            bottom: 20px;
+            left: 25vw;
+            color: white;
+            font-size: 18px;
+            width: 60vw;
+            height: 5vh;
+
+
+        }
+
+        #final2 {
+            background-color: rgb(25, 107, 173);
+            position: relative;
+            top: 48px;
+            display: block;
+            font-size: 25px;
+            color: white;
+
+        }
+
+        #contacto {
+            position: relative;
+            left: 40vw;
+        }
+
+        #imagen2 {
+            width: 65vw;
+            height: 40vh;
+            position: relative;
+            left: 20vw;
+            bottom: 30px;
+
+        }
+
+        #parrafo2 {
+            font-size: 35px;
+            color: whitesmoke;
+            display: inline-block;
+            transform: translate(180px, 20px);
+            width: 61vw;
+
+
+        }
+
+        #email {
+            display: inline-block;
+            transform: translate(20vw,5vh);
+            font-size: 25px;
+            color: white;
+            border: 2px solid gray;
+            text-transform: uppercase;
+            font-size: 25px;
+        }
+
+        #telefono {
+            display: inline-block;
+            transform: translate(30vw, 5vh);
+            font-size: 25px;
+            color: white;
+            border: 2px solid gray;
+            text-transform: uppercase;
+        }
+        #more-information{
+            position: relative;
+            left: 30vw;
+        }
+
+        tr,
+        th,
+        td {
+            border: 1px white solid;
+            color: white;
+            background-color: black;
+            width: 100vw;
+            height: 17vh;
+        }
+
+        table {
+            margin-left: 10vw;
+            border: 1px white solid;
+            color: white;
+            background-color: black;
+            width: 80vw;
+            height: 16vh;
+            margin-bottom: 04px;
+        }
+
+
+        section {
+            display: inline-block;
+
+        }
+
+        .cream {
+            display: block;
+            width: 25vw;
+            height: 15vh;
+            padding-left: 180px;
+        }
+
+        article {
+            display: block;
+            border: solid 2px;
+            justify-content: center;
+            margin: 15px;
+            width: 70vw;
+            margin-left: 20vw;
+        }
+
+        ol {
+            color: white;
+            margin-left: 20px;
+        }
+
+        #final1 {
+            background-color: rgb(25, 107, 173);
+            position: relative;
+            display: block;
+            font-size: 30px;
+            color: white;
+            top: 7vh;
+        }
+
+        .extrellas {
+            display: flex;
+            width: 45vw;
+            height: 30px;
+            position: relative;
+            left: 100px;
+            bottom: 2px;
+        }
+
+        #cierre {
+            display: flex;
+            justify-content: center;
+            color: white;
+            margin-left: 40px
+        }
+
+        .lista {
+            color: rgb(57, 57, 245);
+        }
+
+        #rafle1 {
+            width: 600px;
+            position: relative;
+            left: 10vw;
+        }
+
+        #parte1 {
+            display: flex;
+
+        }
+
+        iframe {
+            width: 70vw;
+            height: 40vh;
+            transform: translate(10vw, 59vh);
+        }
+
+        #parte2 {
+            font-size: 20px;
+            border: 3px solid;
+            position: relative;
+            bottom: 45vh;
+            color: white;
+            padding: 15px;
+        }
+
+        select {
+            color: white;
+            border: 2px solid;
+            width: 10vw;
+        }
+
+        #enviar {
+            color: black;
+            border: 2px solid;
+            padding: 5px;
+        }
+
+        input {
+            background-color: white;
+        }
+
+        #comentario {
+            width: 75vw;
+            height: 6vh;
+        }
+     }
+
+     @media only screen and (min-width:941px) {
+
+
+         * {
+             margin: 0;
+             padding: 0;
+             background-color: rgb(57, 57, 245);
+
+
+         }
+
+         #logo {
+             width: 4.5vw;
+             height: 11vh;
+             margin-left: 95.5vw;
+             position: relative;
+             top: 20px;
+         }
+
+         nav {
+             background-color: rgb(25, 107, 173);
+             position: relative;
+             bottom: 60px;
+         }
+
+         .enlace {
+             position: relative;
+             top: 60px;
+             color: white;
+             font-size: 30px;
+             border: 2px solid gray;
+         }
+
+         #imagenbaner {
+             width: 35vw;
+             height: 30vh;
+             position: relative;
+             left: 32vw;
+             bottom: 25px;
+         }
+
+         #imagen {
+             width: 36vw;
+             height: 28vh;
+             display: inline-flex;
+             position: relative;
+             left: 200px;
+             top: 80px;
+         }
+
+         #final {
+             background-color: rgb(25, 107, 173);
+             position: relative;
+             top: 120px;
+             display: block;
+             font-size: 30px;
+             color: white;
+         }
+
+         h1 {
+             display: inline-block;
+             position: relative;
+             left: 43vw;
+             bottom: 55px;
+             color: darkgray;
+             font-size: 40px;
+             text-transform: uppercase;
+         }
+
+         h2 {
+             width: 250px;
+             position: relative;
+             left: 46.5vw;
+             font-size: 30px;
+             bottom: 40px;
+             text-transform: uppercase;
+             color: rgb(15, 224, 196);
+
+         }
+
+         #about {
+             position: relative;
+             left: 45vw;
+         }
+
+         #contacto {
+             position: relative;
+             left: 44vw;
+         }
+
+         #parrafo1 {
+             width: 50vw;
+             display: inline-block;
+             color: white;
+             position: relative;
+             top: 60px;
+             font-size: 35px;
+         }
+
+         #informacion {
+             display: block;
+         }
+
+         .imagenes {
+             width: 300px;
+             height: 218px;
+             display: inline-block;
+             position: relative;
+             left: 350px;
+             bottom: 20px;
+
+         }
+
+         .parrafos {
+             display: inline-block;
+             position: relative;
+             bottom: 130px;
+             left: 350px;
+             color: white;
+             font-size: 25px;
+             width: 60vw;
+             height: 5vh;
+
+
+         }
+
+         #final2 {
+             background-color: rgb(25, 107, 173);
+             position: relative;
+             display: block;
+             font-size: 30px;
+             color: white;
+         }
+
+         #imagen2 {
+             width: 35vw;
+             height: 40vh;
+             position: relative;
+             left: 610px;
+             bottom: 30px;
+
+         }
+
+         #parrafo2 {
+             font-size: 37.6px;
+             color: whitesmoke;
+             display: inline-block;
+             transform: translate(400px, 50px);
+             width: 61vw;
+
+
+         }
+
+         #email {
+             display: inline-block;
+             transform: translate(20vw, 10vh);
+             font-size: 25px;
+             color: white;
+             border: 2px solid gray;
+             text-transform: uppercase;
+             font-size: 36px;
+         }
+
+         #telefono {
+             display: inline-block;
+             transform: translate(45vw, 10vh);
+             font-size: 25px;
+             color: white;
+             border: 2px solid gray;
+             text-transform: uppercase;
+             font-size: 36px;
+
+         }
+
+         #menu {
+             display: inline-block;
+         }
+
+         #tabla {
+             position: relative;
+             padding: 5px 10px;
+             height: 505px;
+             margin-left: 20px;
+             font-size: 1rem;
+
+         }
+
+         #more-information {
+             transform: translate(-5vw);
+
+         }
+
+         #benefits-and-tips {
+             transform: translate(-5vw);
+             width: 500px
+         }
+
+         tr,
+         th,
+         td {
+             border: 1px white solid;
+
+             color: white;
+             background-color: black;
+             width: 70vw;
+             height: 14.3vh;
+
+         }
+
+         table {
+             margin-left: 15vw;
+             border: 1px white solid;
+
+             color: white;
+             background-color: black;
+             width: 70vw;
+             height: 14.3vh;
+
+         }
+
+         section {
+             display: inline-block;
+
+         }
+
+         .cream {
+             display: flex;
+             width: 18vw;
+             height: 20vh;
+
+         }
+
+         article {
+             display: flex;
+             border: solid 2px;
+             justify-content: center;
+             margin: 50px;
+             width: 50vw;
+             margin-left: 30vw;
+         }
+
+         ol {
+             color: white;
+             margin-left: 280px;
+
+
+         }
+
+         #final1 {
+             background-color: rgb(25, 107, 173);
+             position: relative;
+             display: block;
+             font-size: 30px;
+             color: white;
+             top: 9vh;
+         }
+
+         .extrellas {
+             width: 200px;
+             height: 30px;
+             position: relative;
+             right: 20px;
+             top: 20px;
+         }
+
+         #cierre {
+             display: flex;
+             justify-content: center;
+             text-transform: uppercase;
+             color: white;
+             margin-left: 150px;
+         }
+
+         .lista {
+             color: rgb(57, 57, 245);
+         }
+
+         #rafle1 {
+             width: 850px;
+             position: relative;
+             left: 26vw;
+         }
+
+         #parte1 {
+             width: 50vw;
+
+         }
+
+         iframe {
+             width: 50vw;
+             height: 60vh;
+             transform: translate(15vw, 1vh);
+         }
+
+         #parte2 {
+             font-size: 25px;
+             border: 3px solid;
+             position: relative;
+             left: 350px;
+             color: white;
+             padding: 15px;
+             margin: 19px;
+         }
+
+         select {
+             color: white;
+             border: 2px solid;
+             width: 10vw;
+         }
+
+         #enviar {
+             color: black;
+             border: 2px solid;
+             padding: 5px;
+         }
+
+         input {
+             background-color: white;
+         }
+
+         #comentario {
+             width: 15vw;
+             height: 8vh;
+         }
+     }

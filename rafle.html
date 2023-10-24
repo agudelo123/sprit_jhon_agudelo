@@ -20,15 +20,22 @@
             <img id="logo" src="./logo.png" alt="logo">
         </nav>
         <section id="rafle2">
-            <h1 > rafle</h1>
-            <h2 id="rafle1"> you can collaborate to hold an exhibition event and participate in a raffle to win an easel</h2>
+            <h1> rafle</h1>
+            <h2 id="rafle1"> you can collaborate to hold an exhibition event and participate in a raffle to win an easel
+            </h2>
         </section>
     </header>
     <main>
         <section id="parte1">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.6897532054!2d-118.41173249999999!3d34.020479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1697901359701!5m2!1ses!2sco"></iframe>       </section>
+            <h3 class="lista">hola</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.6897532054!2d-118.41173249999999!3d34.020479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1697901359701!5m2!1ses!2sco"></iframe>
+        </section>
+
         <section id="parte2">
-            <form action="/index.html" method="get">
+            <h2 class="lista">.</h2>
+            
+            <form action="/data.html" method="get">
                 <label for="nombre">First Name</label>
                 <br>
                 <input type="text" name="nombres" id="nombre">
@@ -37,28 +44,43 @@
                 <br>
                 <input type="text" name="apellidos" id="apellido">
                 <br>
-                <label for="email">Choose Meet or Zoom</label>
+                <label for="meet-or-zoom">Choose Meet or Zoom</label>
                 <br>
-                <input type="text" name="correo" id="email">
+                <select name="comunicacion" id="meet-or-zoom">
+                    <option value="N/A">select an option</option>
+                    <option value="Meet">Meet</option>
+                    <option value="Zoom">Zoom</option>
+                </select>
                 <br>
-                <label for="comentario">Choose Date</label>
+                <label for="fecha">Choose Date</label>
                 <br>
-                <input type="text" name="buzon_de_comentarios" id="comentario">
+                <input type="date" name="fecha_del_dia" id="fecha">
                 <br>
-                <label for="pago">Payment Options</label>
                 <br>
-                <input type="checkbox" value="">
+                <label>Payment Options</label>
+                <br>
+                <br>
+                <input type="radio"       value="paga-en-efectivo" id="efectivo" name="pay">
+                <label for="efectivo">cash</label>
+                <br>
+                <input type="radio" value="paga-en-TDC" name="pay" id="TDC">
+                <label for="TDC">Credit Card</label>
+                <br>
+                <input type="radio" value="paga-en-TDB" id="TDB" name="pay">
+                <label for="TDB">Debit Card</label>
+                <br>
                 <br>
                 <label for="comentario">Message(Optional)</label>
                 <br>
-                <input type="text" name="" id="">
+                <input type="text" name="buzon_de_comentarios" id="comentario">
                 <br>
-                <input type="checkbox" value="TYC">
+                <input type="checkbox" value=" accept-TYC" id="TYC">
                 <label for="TYC">I accept terms and conditions...</label>
-                
+
                 <input id="enviar" type="submit">
             </form>
         </section>
+
     </main>
     <footer>
         <h5 id="final2">create by: Jhon Anderson Agudelo</h5>
